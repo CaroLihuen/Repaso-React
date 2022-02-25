@@ -1,0 +1,13 @@
+.Episodes {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Episodes__list {
+  list-style: none;
+}
+
+.Episodes__list li {
+  margin-top: 1em;
+}

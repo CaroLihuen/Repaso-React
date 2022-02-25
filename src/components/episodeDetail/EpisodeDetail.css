@@ -1,0 +1,14 @@
+.EpisodeDetail-Container{
+    text-align: center;
+
+}
+
+.EpisodeDetail-Data ul {
+    list-style: none;
+
+}
+
+.EpisodeDetail-Data ul li {
+    margin-left: 18%;
+    width: 60%;
+}
