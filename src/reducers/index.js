@@ -15,7 +15,8 @@ const initialState = {
     quote: {},
     characters:[],
     characterDetail: {},
-    episodes: [],
+    episodes:[],
+    episodesDetail:{},
 }
 
 //==== Setear Reducers ======//
@@ -46,7 +47,16 @@ function rootReducer(state = initialState, action) {
             ...state,
             episodes: action.payload,
           };
-    
+        case GET_EPISODE_DETAIL:
+          return {
+            ...state,
+            episodesDetail: action.payload,
+          };
+        case EMPTY_EPISODE_DETAIL:
+          return {
+            ...state,
+            episodesDetail: {},
+          };
         default:
     return state;
     }

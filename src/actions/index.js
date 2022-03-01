@@ -69,15 +69,15 @@ export function getEpisodes() {
           .then((response) => response.json())
           .then((json) => {
             dispatch({
-              type: GET_EPISODE_DETAIL,
-              payload: json[0],
+              type: GET_EPISODES,
+              payload: json,
             });
           });
       };
 }
 //====================================//
 
-export function emptyEpisodeDetail() {
+export function emptyEpisodeDetail(num) {
     return{
         type: 'EMPTY_EPISODE_DETAIL'
     }
@@ -90,7 +90,7 @@ export function getEpisodeDetail(id) {
         .then(r => r.json())
         .then(json => {
             dispatch({
-                type:  GET_CHARACTER_DETAIL,
+                type:  GET_EPISODE_DETAIL,
                 payload: json[0],
             })
         })

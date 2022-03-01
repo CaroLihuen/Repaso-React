@@ -12,11 +12,12 @@ const Episodes = (props) => {
   }
     getEpisodeEffect ();
   },[])
-
+  
   return (
     <div className='Episodes'>
       Episodes
-      { props.episodes?.map((ep)=>{
+      { props.episodes?.filter((ep)=>ep.series === "Breaking Bad")
+      .map((ep)=>{
         return(
           <div className='Episodes__list' key={ep.episode_id}>
             <Link to={`/episodes/${ep.episode_id}`} >
