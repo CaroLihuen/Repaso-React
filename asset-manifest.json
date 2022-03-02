@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Repaso-React/static/css/main.d4fdbf48.chunk.css",
+    "main.js": "/Repaso-React/static/js/main.e43c002b.chunk.js",
+    "main.js.map": "/Repaso-React/static/js/main.e43c002b.chunk.js.map",
+    "runtime-main.js": "/Repaso-React/static/js/runtime-main.bef92382.js",
+    "runtime-main.js.map": "/Repaso-React/static/js/runtime-main.bef92382.js.map",
+    "static/js/2.473111f6.chunk.js": "/Repaso-React/static/js/2.473111f6.chunk.js",
+    "static/js/2.473111f6.chunk.js.map": "/Repaso-React/static/js/2.473111f6.chunk.js.map",
+    "static/js/3.4224a36d.chunk.js": "/Repaso-React/static/js/3.4224a36d.chunk.js",
+    "static/js/3.4224a36d.chunk.js.map": "/Repaso-React/static/js/3.4224a36d.chunk.js.map",
+    "index.html": "/Repaso-React/index.html",
+    "static/css/main.d4fdbf48.chunk.css.map": "/Repaso-React/static/css/main.d4fdbf48.chunk.css.map",
+    "static/js/2.473111f6.chunk.js.LICENSE.txt": "/Repaso-React/static/js/2.473111f6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Repaso-React/static/media/bg.085908ea.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bef92382.js",
+    "static/js/2.473111f6.chunk.js",
+    "static/css/main.d4fdbf48.chunk.css",
+    "static/js/main.e43c002b.chunk.js"
+  ]
+}
